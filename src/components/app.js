@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-import Alignment from './alignment.js';
-import Hidden from './hide.js';
-import ChangeNumber from './changeNumber.js';
-import FontChange from './fontChange.js';
-import ColorChange from './changeColor.js';
-import Time from './time.js';
+import Alignment from './hooks/alignment';
+import Hidden from './hooks/hide';
+import ChangeNumber from './hooks/changeNumber';
+import FontChange from './hooks/fontChange';
+import ColorChange from './hooks/changeColor';
+import Time from './hooks/time';
 
 export default class App extends Component {
   render() {

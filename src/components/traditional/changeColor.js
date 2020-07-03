@@ -19,7 +19,7 @@ export default class ColorChange extends Component {
     render() {
         return (
             <div>
-                <h3 style={{color: this.state.textColor}}>Color Me!</h3>
+                <h1 style={{color: this.state.textColor}}>Color Me!</h1>
                 <input name="colorInput" id="colorInput" type="text" />
                 <button onClick={() => this.handleColorChange()}>Submit</button>
             </div>

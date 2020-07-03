@@ -24,7 +24,7 @@ export default class FontChange extends Component {
             <div >
                 <button onClick={() => this.handleFontChangeUp()}>Font Size Up</button>
                 <button onClick={() => this.handleFontChangeDown()}>Font Size Down</button>
-                <h3 style={{ fontSize: `${this.state.font}px` }}>{`${this.state.font}`}</h3>
+                <h3 style={{ fontSize: `${this.state.font}px` }}>{`${this.state.font}px`}</h3>
             </div>
         )
     }
